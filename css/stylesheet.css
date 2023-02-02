@@ -6,7 +6,7 @@ body {
     }
 nav {
     background-color: aquamarine;
-    margin: auto;
+    text-align: center
 }
 h1 {
     font: Montserrat, sans-serif;
