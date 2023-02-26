@@ -1,13 +1,21 @@
 h1 {
 	color: #010CA7;
-	}
+}
 body {  
     background-color: #add8e6;
-    }
-nav {
+}
+.topbar {
     background-color: aquamarine;
-    text-align: center
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
 }
 .nametitle {
     font-family: 'Montserrat', sans-serif;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
 }
