@@ -9,8 +9,7 @@ body {
     text-align: center;
 }
 nav {
-    display: flex;
-    justify-content: center;
+    display: grid;
 }
 .nametitle {
     font-family: 'Montserrat', sans-serif;
@@ -23,4 +22,32 @@ footer{
     display: grid;
     grid-template-rows: 1fr 1fr 2fr;
     grid-template-columns: 3fr 1fr;
+}
+.courselist{
+    display: grid;
+    list-style: none;
+}
+@media screen and (min-width: 600px){
+    body{
+        background-color: #add8e6;
+    }
+    h1 {
+        color: #010CA7;
+    }
+    .topbar {
+        background-color: aquamarine;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        background-color: aquamarine;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
 }
