@@ -6,13 +6,13 @@ const courseList = [
   
   let userInput = "";
   while (userInput.length !== 4 || isNaN(userInput)) {
-    userInput = prompt("Please enter a 4-digit number (valid course codes are: 1620, 1630, and 1515)");
+    userInput = prompt("enter a 4-digit course code");
   }
   
   let isCourseTaken = false;
   for (let course of courseList) {
     if (course.code.includes(` ${userInput}`)) {
-      console.log(`Yes, I am taking the course: ${course.code} - ${course.name}`);
+      console.log(`yes! i am taking the course: ${course.code} - ${course.name}`);
       isCourseTaken = true;
       break;
     }
@@ -20,5 +20,5 @@ const courseList = [
   
   if (!isCourseTaken) {
     courseList.push({ code: `ACIT ${userInput}`, name: null });
-    console.log(`Success! The course with code ACIT ${userInput} has been added to the list.`);
+    console.log(`the course with code ${userInput} has been added to the list.`);
   }
