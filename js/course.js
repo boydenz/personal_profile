@@ -1,7 +1,7 @@
 const courseList = [
-    { code: "ACIT 1620", name: "Web Fundamental Technologies" },
-    { code: "ACIT 1630", name: "Database Systems" },
-    { code: "ACIT 1515", name: "Introduction to Programming" },
+    { code: "ACIT 1620", name: "fundamental web technology" },
+    { code: "ACIT 1630", name: "database systems" },
+    { code: "ACIT 1515", name: "scripting for IT" },
   ];
   
   let userInput = "";
